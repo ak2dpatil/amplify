@@ -1,0 +1,18 @@
+projects:
+  Manu_Test-App-FromScratch:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
+        region: eu-west-1
+        apiId: 2s2rzpxnfzcp3lnvzejc5mav4y
+        maxDepth: 2
+extensions:
+  amplify:
+    version: 3
